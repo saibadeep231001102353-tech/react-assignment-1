@@ -1,0 +1,39 @@
+.portfolio-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+main {
+  flex: 1;
+}
+
+/* Alternating subtle section backgrounds for contrast and depth */
+.about-section {
+  background: transparent;
+}
+
+.education-section {
+  background: rgba(15, 21, 35, 0.45);
+}
+
+[data-theme='light'] .education-section {
+  background: rgba(241, 245, 249, 0.6);
+}
+
+.skills-section {
+  background: transparent;
+}
+
+.projects-section {
+  background: rgba(15, 21, 35, 0.45);
+}
+
+[data-theme='light'] .projects-section {
+  background: rgba(241, 245, 249, 0.6);
+}
+
+.contact-section {
+  background: transparent;
+}
